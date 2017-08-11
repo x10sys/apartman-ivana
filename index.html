@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Apartment Ivana - Welcome</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="theme-color" content="#1565c0">
+  <link rel="apple-touch-icon" href="img/icon.png">
+  <meta name="msapplication-square310x310logo" content="img/icon.png">
+  <link rel="icon" sizes="192x192" href="img/icon.png">
+  <link rel="shortcut icon" sizes="192x192" href="img/icon.png">
+  <link rel="manifest" href="manifest.json">
+	<script>
+		var loc = window.location.href+'';
+		if (loc.indexOf('http://')==0){
+			window.location.href = loc.replace('http://','https://');
+		}
+	</script>
+  <!-- Add To Homescreen -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="Villa Lina">
+	<link rel="shortcut icon" sizes="16x16" href="img/icon.png">
+	<link rel="shortcut icon" sizes="196x196" href="img/icon.png">
+	<link rel="apple-touch-icon-precomposed" href="img/icon.png">
+	<link rel="stylesheet" type="text/css" href="css/addtohomescreen.css">
+	<script src="js/addtohomescreen.js"></script>
+	
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <!-- <script src="https://use.fontawesome.com/93094e7a5d.js" async></script> -->
+</head>
+
+<body>
+	<!-- Add To Homescreen -->
+	<script>
+		addToHomescreen({
+		startDelay: 2,
+		detectHomescreen: true
+	});
+	</script>
+	
+  <!-- Navigation -->
+  <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+      <li class="sidebar-brand"><a href="#top" onclick=$("#menu-close").click();><h4 class="text-white">Ivana</h4></a></li>
+      <li><a href="#recomendations" class="smoothscroll" onclick=$("#menu-close").click();><i class="fa fa-map" aria-hidden="true"></i> Where to go</a></li>
+      <li><a href="./beaches"><i class="fa fa-sun-o" aria-hidden="true"></i> Beaches</a></li>
+      <li><a href="#places" class="smoothscroll" onclick=$("#menu-close").click();><i class="fa fa-map-marker" aria-hidden="true"></i> More places</a></li>
+      <li><a href="#forecast" class="smoothscroll" onclick=$("#menu-close").click();><i class="fa fa-cloud" aria-hidden="true"></i> Weather</a></li>
+      <li><a href="#services" class="smoothscroll" onclick=$("#menu-close").click();><i class="fa fa-phone" aria-hidden="true"></i> Service info</a></li>
+      <li><a href="#testimonial" class="smoothscroll" onclick=$("#menu-close").click();><i class="fa fa-pencil" aria-hidden="true"></i> Reviews</a></li>
+      <li><a href="#contact" class="smoothscroll" onclick=$("#menu-close").click();><i class="fa fa-user" aria-hidden="true"></i> Contact</a></li>
+    </ul>
+  </nav>
+
+    <!-- Header -->
+	<header id="top" class="header">
+		<div class="text-vertical-center">
+			<div class="title">
+				<img class="img-portfolio img-responsive" src="img/logo.png">
+				<i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></h2>
+				<a class="smoothscroll" href="#recomendations">
+					<div class="scroll-down"></div>
+				</a> 
+			</div>
+			<a href="#recomendations" class="btn btn-dark btn-lg heading smoothscroll">Discover Rijeka</a>
+		</div>
+	</header>
+
+
+	    <!-- Recomendations -->
+    <section id="recomendations" class="about  bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Welcome</h2>
+                    <hr class="small">
+                    <p class="lead">If you need a store, or to go to a beach or a restaurant, or just to explore Rijeka, here you can find my recomendations.</p>
+				<p class="lead">Get your apps ready with the links below & have a pleasant stay at Apartment Ivana.</p>
+                </div>
+			<div class="row text-center">
+				<div class="col-md-3 col-sm-3 col-xs-3"></div>
+				<div class="col-md-3 col-sm-3 col-xs-3">
+					<div class="portfolio-item">
+						<a href="./maps.html" target="_blank">
+							<img class="img-portfolio img-responsive"  src="img/google-maps.png" width="100px" height="auto">
+							<p class="text-center text-white">Google Maps</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-3">
+					<div class="portfolio-item">
+						<a href="./streetview.html" target="_blank">
+							<img class="img-portfolio img-responsive"  src="img/google-street-view.png" width="100px" height="auto">
+							<p class="text-center text-white">Google Street View</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-3"></div>
+			</div>
+        </div>
+    </section>
+
+	<!-- Map -->
+	<section id="map" class="map  bg-primary">
+		<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/u/0/embed?mid=1qzLlBVN3cYpQpB8LGcvoAI79jr4"></iframe>
+	</section>
+	
+	   <section id="recomendations2" class="about  bg-primary text-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p class="lead">You could take the map with you with the following button</p>
+				<a class="btn btn-light btn-lg"  target="_blank"  href="https://www.google.com/maps/d/viewer?mid=1qzLlBVN3cYpQpB8LGcvoAI79jr4"><i class="fa fa-map" aria-hidden="true"></i> Take this map with you</a>
+			 </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Places -->
+    <section id="places" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="text-primary">Explore in details</h2>
+                    <hr class="small">
+				<p class="lead">See in details what is out there for you</p>
+                    <div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 img-portfolio">
+						<a href="./beaches" target="_SELF">
+							<div class="places title" style="background-image:url(img/places-beach.jpg)">
+								<h1>Beaches</h1>
+							</div>
+						</a>
+					</div>
+					
+                        <div class="col-md-4 col-sm-6 col-xs-12 img-portfolio">
+						<a href="http://www.visitrijeka.eu/What_To_Do/Culture" target="_blank" rel="noopener">
+							<div class="places title" style="background-image:url(img/places-culture.jpg)">
+								<h1>Culture</h1>
+							</div>
+						</a>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 img-portfolio">
+						<a href="http://www.visitrijeka.eu/What_To_Do/Shopping" target="_blank" rel="noopener">
+							<div class="places title" style="background-image:url(img/places-shopping.jpg)">
+								<h1>Shopping</h1>
+							</div>
+						</a>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 img-portfolio">
+						<a href="http://www.visitrijeka.eu/What_To_Do/Fun_amenities" target="_blank" rel="noopener">
+							<div class="places title" style="background-image:url(img/places-fun.jpg)">
+								<h1>Fun</h1>
+							</div>
+						</a>
+                        </div>
+					<div class="col-md-12 col-sm-6 col-xs-12 img-portfolio">
+						<a href="http://www.visitrijeka.eu/Where_to_Eat_and_Drink/Restaurants" target="_blank" rel="noopener">
+							<div class="places title" style="background-image:url(img/places-restaurant.jpg)">
+								<h1>Restaurants</h1>
+							</div>
+						</a>
+					</div>
+						<a href="https://goo.gl/eDBkAd" target="_blank" rel="noopener" class="btn btn-dark btn-lg">Explore Rijeka on Google</a>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+   <!-- Callout -->
+	<aside class="callout">
+		<div class="text-vertical-center">
+			<h1>Have fun while you are here</h1>
+		</div>
+	</aside>
+
+	    <!-- <!-- Call to Action -->
+    <!-- <aside class="call-to-action bg-primary"> -->
+        <!-- <div class="container"> -->
+            <!-- <div class="row"> -->
+                <!-- <div class="col-lg-12 text-center"> -->
+                    <!-- <h3>The buttons below are impossible to resist.</h3> -->
+                    <!-- <a href="#" class="btn btn-lg btn-light">Click Me!</a> -->
+                    <!-- <a href="#" class="btn btn-lg btn-dark">Look at Me!</a> -->
+                <!-- </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+    <!-- </aside> -->
+
+
+
+	<!-- Forecast -->
+    <section id="forecast" class="call-to-action bg-secondary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-primary">Weather forecast</h2>
+                    <hr class="small">
+					<iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="95%" src="http://forecast.io/embed/#lat=45.3269&lon=14.441&name=Rijeka&color=#039be5&font=Roboto&units=si"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+	<!-- Services -->
+	 <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+	<section id="services" class="services text-white bg-primary">
+		<div class="container">
+			<div class="row text-center">
+			<div class="col-lg-10 col-lg-offset-1">
+				<h2>Service info</h2>
+				<hr class="small">
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<div class="service-item">
+							<span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-life-ring fa-stack-1x text-primary"></i></span>
+							<h5>Emergency Numbers</h5>
+								<p><a href="tel:112" class="text-white">112</a> - Emergency number</p>
+								<p><a href="tel:192" class="text-white">192</a> - Police</p>
+								<p><a href="tel:193" class="text-white">193</a> - Fire Brigade</p>
+								<p><a href="tel:194" class="text-white">194</a> - Ambualance</p>
+								<p><a href="tel:195" class="text-white">195</a> - Rescue at the sea</p>
+								<p><a href="tel:1987" class="text-white">1987</a> - Road assistance</p>
+							<!-- <a href="#" class="btn btn-light">Learn More</a> -->
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12">
+						<div class="service-item text-white">
+							<span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-compass fa-stack-1x text-primary"></i></span>
+							<h5>Travel info</h5>
+								<p><a href="tel:+38551660660" class="text-white">+38551660660</a> - <a class="text-white" href="https://www.autotrans.hr/en-us/" target="_BLANK" rel="noopener">Bus</a></p>
+								<p><a href="tel:+38551842040" class="text-white">+38551842040</a> - <a class="text-white" href="http://www.rijeka-airport.hr/index_eng.asp" target="_BLANK" rel="noopener">Airport</a></p>
+								<p><a href="tel:+38513782583" class="text-white">+38513782583</a> - <a class="text-white" href="http://www.hzpp.hr/en" target="_BLANK" rel="noopener">Train station</a></p>
+								<p><a href="tel:+38551585585" class="text-white">+38551585585</a> - <a class="text-white" href="http://www.radiotaxirijeka.com.hr/" target="_BLANK" rel="noopener">Taxi Radio</a></p>
+								<p><a href="tel:+38551313313" class="text-white">+38551313313</a> - <a class="text-white" href="https://cammeo.hr/en/cities/rijeka" target="_BLANK" rel="noopener">Taxi Cammeo</a></p>
+							<!-- <a href="#" class="btn btn-light">Learn More</a> -->
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-6">
+						<div class="service-item text-white">
+							<span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-map-marker fa-stack-1x text-primary"></i></span>
+							<h5>Tourist info</strong></h5>
+								<p><a class="text-white" href="http://www.visitrijeka.eu/" target="_BLANK" rel="noopener">Visit Rijeka</a></p>
+								<p><a class="text-white" href="https://www.facebook.com/VisitRijeka" target="_BLANK" rel="noopener">Visit Rijeka Facebook</a></p>
+								<p><a class="text-white" href="http://www.stadanas.info/en/" target="_BLANK" rel="noopener">What Today?</a></p>
+							<!-- <a href="#" class="btn btn-light">Learn More</a> -->
+						</div>
+					</div>
+					<!-- <div class="col-md-3 col-sm-6"> -->
+					<!-- <div class="service-item"> -->
+					<!-- <span class="fa-stack fa-4x"> -->
+					<!-- <i class="fa fa-circle fa-stack-2x"></i> -->
+					<!-- <i class="fa fa-shield fa-stack-1x text-primary"></i> -->
+					<!-- </span> -->
+					<!-- <h4> -->
+					<!-- <strong>Service Name</strong> -->
+					<!-- </h4> -->
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
+					<!-- <!-- <a href="#" class="btn btn-light">Learn More</a> -->
+					<!-- </div> -->
+					<!-- </div> -->
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+<!-- Testimonials -->
+
+	
+<section id="testimonial"  style="background-color:#FFF !important">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1 text-center">
+				<h2>Write a review</h2>
+				<p class="lead">Please, take some time and add a review. I'd appriciate it :)</p>
+				<hr class="small">
+				<ul class="list-inline">
+				<li>
+					<a href="https://www.booking.com/hotel/hr/apartment-ivana-rijeka.html" target="_BLANK" rel="noopener"><img class="img-portfolio img-responsive" src="img/booking.png" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);"></a>
+				</li>
+				<li>
+					<a href="https://www.airbnb.com/rooms/13758259" target="_BLANK" rel="noopener"><img class="img-portfolio img-responsive" src="img/airbnb.png" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);"></a>
+				</li>
+				</br>
+				<li>
+					<a href="https://search.google.com/local/writereview?placeid=ChIJc7O-UUOmZEcRRXT11PExVNU" target="_BLANK" rel="noopener"><img class="img-portfolio img-responsive" src="img/google.png" style="box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);"></a>
+				</li>
+				</ul>
+			</div>
+		</div>
+</div>
+
+	<hr class="small">
+
+	<div class="container">
+		<div class="quoteLoop" style="height:200px;">
+
+			<blockquote class="quote"> <img src="img/user-female-alt-icon.png" width="100" height="100" alt=""/>
+			<h5>&nbsp;<br>
+			&rdquo;
+			Apartment and host exceedes the expectations! we will definitely go back.
+			&rdquo;<br>
+			<small>Dominika, Poland</small></h5></blockquote>
+
+			<blockquote class="quote"> <img src="img/user-male-alt-icon.png" width="100" height="100" alt=""/>
+			<h5>&nbsp;<br>
+			&ldquo;
+			Ivana's house is so nice!! Modern, comfortable, with a very nice garden and a balcony with a great view to the bay. We felt very welcome and at home. Ivana suggested some interesting spots near Rijeka and were accurate!
+			&rdquo;<br>
+			<small>João, Portugal</small></h5></blockquote>
+
+			<blockquote class="quote"> <img src="img/user-female-alt-icon.png" width="100" height="100" alt=""/>
+			<h5>&nbsp;<br>
+			&ldquo;
+			Einfach gesagt super tolle Unterkunft
+			&rdquo;<br>
+			<small>Veronika, Austria</small></h5></blockquote>
+
+			<blockquote class="quote"> <img src="img/user-female-alt-icon.png" width="100" height="100" alt=""/>
+			<h5>&nbsp;<br>
+			&ldquo;
+			Tidy, spacious, beautiful view, everything is tailored to children and Ivana is extremely kind and nice :)
+			&rdquo;<br>
+			<small>Ivana, Croatia</small></h5></blockquote>
+
+			<blockquote class="quote"> <img src="img/user-male-alt-icon.png" width="100" height="100" alt=""/>
+			<h5>&nbsp;<br>
+			&ldquo;
+			The owner is extremely friendly and accessible, the apartment is extra and all is new and stylish.
+			&rdquo;<br>
+			<small>Dino, Croatia</small></h5></blockquote>
+
+			<blockquote class="quote"> <img src="img/user-male-alt-icon.png" width="100" height="100" alt=""/>
+			<h5>&nbsp;<br>
+			&ldquo;
+			Acceuil tres chaleureux, apartement au top, region magnifique,...
+			&rdquo;<br>
+			<small>Arnaud, France</small></h5></blockquote>
+
+			<blockquote class="quote"> <img src="img/user-male-alt-icon.png" width="100" height="100" alt=""/>
+			<h5>&nbsp;<br>
+			&ldquo;
+			A really charming home with elegant private parking and nice yard. We stayed on the 3rd floor of the house. Amazing view of the bay and the nearby beach town of Opatija from the living room/kitchen and the balcony. The apartment is well equipped, very spatulas, and clean. The beds are comfortable. The host Ivana is very warm and communicative. A very relaxing stay. Highly recommended.
+			&rdquo;<br>
+			<small>Tony, California</small></h5></blockquote>
+
+			<blockquote class="quote"> <img src="img/user-male-alt-icon.png" width="100" height="100" alt=""/>
+			<h5>&nbsp;<br>
+			&ldquo;
+			This is a great house in a cool location. There are so many things to do in this area and the house is a great home base. Plenty of room, great view, all amenities, and Ivana was very accommodating.
+			&rdquo;<br>
+			<small>Alex, Texas</small></h5></blockquote>
+
+			<blockquote class="quote"> <img src="img/user-male-alt-icon.png" width="100" height="100" alt=""/>
+			<h5>&nbsp;<br>
+			&ldquo;
+			Ivana has a very nice, modern, and well equipped and decorated apartment. The sea view from the balcony is pleasant. It has also a garden where children can play around. It has a private place for the car. Ivana was a very welcoming and wonderful host that takes care of all the details. We absolutely recommend her home.
+			&rdquo;<br>
+			<small>Carlos, Portugal</small></h5></blockquote>
+		</div>
+	</div>
+</section>
+
+
+    <!-- Footer -->
+    <footer id="contact" class="text-white bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4>Apartment Ivana</h4>
+					<ul class="list-unstyled">
+					<li><i class="fa fa-map-marker fa-fw"></i><a href="https://maps.google.com/maps/dir/''/apartman+ivana/data=!4m5!4m4!1m0!1m2!1m1!1s0x4764a64351beb373:0xd55431f1d4f57445?hl=en&sa=X&ved=0ahUKEwjr0N2xvPfTAhWQL1AKHXeOB90Q9RcIqAEwCw" target="_BLANK">Dinka Šimunovića 20, HR-51000 Rijeka</a></li>
+                        <li><i class="fa fa-phone fa-fw"></i><a href="tel:+385912126898">+385 91 212 6898</a></li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:ivdiklic@gmail.com">ivdiklic@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <p class="text-white">Copyright &copy; Apartment Ivana 2017. Powered by <a href="http://estudio.epizy.com/" target="_blank" rel="noopener">SolutionBox</a>.</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg smoothscroll"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Bootstrap Core JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+	
+	
+	<script src='js/TweenMax.min.js'></script>
+	<script>TweenMax.staggerFrom(".heading", 0.8, {opacity: 0, y: 20, delay: 0.2}, 0.4);</script>
+	
+	<!-- Custom Theme JavaScript -->
+	<script src="js/custom.js" async></script>
+	
+	<!-- ServiceWorker -->
+	<script>
+	if (navigator.serviceWorker) {
+	  navigator.serviceWorker.register('./sw.js').then(function(registration) {
+	    console.log('ServiceWorker registration successful with scope:',  registration.scope);
+	  }).catch(function(error) {
+	    console.log('ServiceWorker registration failed:', error);
+	  });
+	}
+	</script>
+
+</body>
+</html>
